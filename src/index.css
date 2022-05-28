@@ -57,8 +57,9 @@ code {
 }
 
 .header img {
-  max-width: 300px;
-  height: auto;
+  max-width: 350px;
+  height: 200px;
+  width: 200px;
 
   margin: 20px auto;
 
@@ -123,7 +124,7 @@ code {
 
   padding: 20px;
 
-  border: 1px solid #0088BB;
+  border: 1px solid #919191be;
   border-radius: 8px;
 }
 
@@ -177,7 +178,7 @@ code {
 }
 
 .social .button {
-  margin: 0 15px;
+  margin: 5px 15px;
 }
 
 /* ------------------------------------------------------ */
@@ -192,9 +193,12 @@ code {
 .button {
   display: inline-block;
 
-  background: #12BDF3;
+  background: #919191be;
+  color: rgb(11, 11, 11);
 
   padding: 15px 50px;
+
+  margin: 15px;
 
   border: none;
   border-radius: 8px;
@@ -210,6 +214,7 @@ code {
 }
 
 .button:hover {
-  background: #0088BB;
+  background: #000000;
   color: #FFFFFF;
 }
+
